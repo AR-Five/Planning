@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="AR project" company="" webLink="http://" view-date="2018-02-15" view-index="1" gantt-divider-location="365" resource-divider-location="227" version="2.8.6" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="AR project" company="" webLink="http://" view-date="2018-02-12" view-index="1" gantt-divider-location="365" resource-divider-location="227" version="2.8.6" locale="fr">
     <description/>
-    <view zooming-state="default:3" id="gantt-chart">
+    <view zooming-state="default:5" id="gantt-chart">
         <field id="tpd3" name="Nom" width="207" order="0"/>
         <field id="tpd4" name="Date de début" width="74" order="1"/>
         <field id="tpd5" name="Date de fin" width="78" order="2"/>
         <option id="color.recent"><![CDATA[#3366ff #33ffcc #9999ff #eeeeee]]></option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nom" width="221" order="0"/>
+        <field id="0" name="Nom" width="206" order="0"/>
     </view>
     <!-- -->
     <calendars>
@@ -48,7 +48,7 @@ Intérets des gens]]></notes>
 story mapping]]></notes>
             <depend id="29" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="29" name="Parcours utilisateur" color="#3366ff" meeting="false" start="2018-03-08" duration="8" complete="0" thirdDate="2018-03-04" thirdDate-constraint="0" expand="true"/>
+        <task id="29" name="Parcours utilisateur" color="#3366ff" meeting="false" start="2018-03-08" duration="8" complete="0" thirdDate="2018-03-08" thirdDate-constraint="0" expand="true"/>
         <task id="19" name="Maquettes interface" color="#3366ff" meeting="false" start="2018-02-23" duration="21" complete="0" thirdDate="2018-02-23" thirdDate-constraint="0" expand="true"/>
         <task id="26" name="Sélection techno/device" color="#33ffcc" meeting="false" start="2018-02-23" duration="21" complete="0" thirdDate="2018-02-23" thirdDate-constraint="0" expand="true"/>
         <task id="30" name="Environnement dev" color="#33ffcc" meeting="false" start="2018-02-23" duration="21" complete="0" thirdDate="2018-02-23" thirdDate-constraint="0" expand="true"/>
@@ -63,23 +63,27 @@ story mapping]]></notes>
     <allocations>
         <allocation task-id="9" resource-id="0" function="Default:0" responsible="true" load="50.0"/>
         <allocation task-id="24" resource-id="0" function="Default:0" responsible="false" load="20.0"/>
-        <allocation task-id="31" resource-id="0" function="Default:0" responsible="true" load="50.0"/>
-        <allocation task-id="29" resource-id="0" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="31" resource-id="0" function="Default:0" responsible="true" load="30.0"/>
+        <allocation task-id="29" resource-id="0" function="Default:0" responsible="true" load="30.0"/>
         <allocation task-id="19" resource-id="0" function="Default:0" responsible="true" load="33.0"/>
+        <allocation task-id="26" resource-id="0" function="Default:0" responsible="true" load="20.0"/>
         <allocation task-id="9" resource-id="1" function="Default:0" responsible="true" load="50.0"/>
         <allocation task-id="24" resource-id="1" function="Default:0" responsible="false" load="20.0"/>
         <allocation task-id="16" resource-id="1" function="Default:0" responsible="true" load="66.0"/>
         <allocation task-id="19" resource-id="1" function="Default:0" responsible="true" load="33.0"/>
+        <allocation task-id="29" resource-id="1" function="Default:0" responsible="true" load="30.0"/>
         <allocation task-id="0" resource-id="2" function="Default:0" responsible="true" load="50.0"/>
         <allocation task-id="24" resource-id="2" function="Default:0" responsible="false" load="20.0"/>
         <allocation task-id="25" resource-id="2" function="Default:0" responsible="true" load="50.0"/>
         <allocation task-id="24" resource-id="3" function="Default:0" responsible="false" load="20.0"/>
         <allocation task-id="31" resource-id="3" function="Default:0" responsible="true" load="30.0"/>
-        <allocation task-id="25" resource-id="3" function="Default:0" responsible="true" load="30.0"/>
         <allocation task-id="19" resource-id="3" function="Default:0" responsible="true" load="33.0"/>
+        <allocation task-id="26" resource-id="3" function="Default:0" responsible="true" load="20.0"/>
         <allocation task-id="0" resource-id="4" function="Default:0" responsible="true" load="50.0"/>
         <allocation task-id="24" resource-id="4" function="Default:0" responsible="true" load="20.0"/>
-        <allocation task-id="29" resource-id="4" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="29" resource-id="4" function="Default:0" responsible="true" load="30.0"/>
+        <allocation task-id="31" resource-id="4" function="Default:0" responsible="true" load="30.0"/>
+        <allocation task-id="25" resource-id="4" function="Default:0" responsible="true" load="50.0"/>
     </allocations>
     <vacations/>
     <previous/>
