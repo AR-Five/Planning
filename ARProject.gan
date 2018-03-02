@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="AR project" company="" webLink="http://" view-date="2018-02-12" view-index="1" gantt-divider-location="365" resource-divider-location="227" version="2.8.6" locale="fr">
+<?xml version="1.0" encoding="UTF-8"?><project name="AR project" company="" webLink="http://" view-date="2018-02-12" view-index="0" gantt-divider-location="363" resource-divider-location="227" version="2.8.6" locale="fr">
     <description/>
     <view zooming-state="default:5" id="gantt-chart">
-        <field id="tpd3" name="Nom" width="207" order="0"/>
+        <field id="tpd3" name="Nom" width="206" order="0"/>
         <field id="tpd4" name="Date de début" width="74" order="1"/>
-        <field id="tpd5" name="Date de fin" width="78" order="2"/>
-        <option id="color.recent"><![CDATA[#3366ff #33ffcc #9999ff #eeeeee]]></option>
+        <field id="tpd5" name="Date de fin" width="77" order="2"/>
+        <option id="color.recent"><![CDATA[#9999ff #3366ff #33ffcc #eeeeee]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Nom" width="206" order="0"/>
@@ -50,8 +50,13 @@ story mapping]]></notes>
         </task>
         <task id="29" name="Parcours utilisateur" color="#3366ff" meeting="false" start="2018-03-08" duration="8" complete="0" thirdDate="2018-03-08" thirdDate-constraint="0" expand="true"/>
         <task id="19" name="Maquettes interface" color="#3366ff" meeting="false" start="2018-02-23" duration="21" complete="0" thirdDate="2018-02-23" thirdDate-constraint="0" expand="true"/>
-        <task id="26" name="Sélection techno/device" color="#33ffcc" meeting="false" start="2018-02-23" duration="21" complete="0" thirdDate="2018-02-23" thirdDate-constraint="0" expand="true"/>
-        <task id="30" name="Environnement dev" color="#33ffcc" meeting="false" start="2018-02-23" duration="21" complete="0" thirdDate="2018-02-23" thirdDate-constraint="0" expand="true"/>
+        <task id="43" name="Design d'interaction" color="#8cb6ce" meeting="false" start="2018-03-08" duration="15" complete="0" thirdDate="2018-03-08" thirdDate-constraint="0" expand="true"/>
+        <task id="44" name="Design des interfaces" meeting="false" start="2018-03-16" duration="14" complete="0" expand="true"/>
+        <task id="26" name="Sélection techno/device" color="#9999ff" meeting="false" start="2018-02-23" duration="21" complete="0" thirdDate="2018-02-23" thirdDate-constraint="0" expand="true"/>
+        <task id="30" name="Environnement dev" color="#9999ff" meeting="false" start="2018-02-23" duration="21" complete="0" thirdDate="2018-02-23" thirdDate-constraint="0" expand="true"/>
+        <task id="45" name="Périmetre fonctionnel" meeting="false" start="2018-03-16" duration="15" complete="0" expand="true"/>
+        <task id="46" name="Arborescence" meeting="false" start="2018-03-16" duration="15" complete="0" expand="true"/>
+        <task id="47" name="Aperçu des contenus" color="#8cb6ce" meeting="false" start="2018-03-16" duration="15" complete="0" thirdDate="2018-03-05" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="Guillaume C" function="Default:0" contacts="" phone=""/>
